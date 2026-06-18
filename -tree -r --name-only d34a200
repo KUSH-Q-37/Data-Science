@@ -1,0 +1,68 @@
+[33mcommit d34a2008476a349ac87c8e407d6366cad3c7e53f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: KUSH-Q-37 <kush.bhardwaj_cs22@gla.ac.in>
+Date:   Thu Jun 18 22:08:28 2026 +0530
+
+    Save local changes
+
+ 1)Python/01june.py                                 |   11 [31m-[m
+ 1)Python/16march.py                                |   12 [31m-[m
+ 1)Python/File-Handling/file_handle.py              |  115 [31m-[m
+ .../__pycache__/hello.cpython-312.pyc              |  Bin [31m5075[m -> [32m0[m bytes
+ 1)Python/OOPS Bank Management/app.py               |   77 [31m-[m
+ 1)Python/OOPS Bank Management/data.json            |   26 [31m-[m
+ 1)Python/OOPS Bank Management/hello.py             |  100 [31m-[m
+ 1)Python/OOPS Bank Management/main.py              |  202 [31m-[m
+ 1)Python/avg.py                                    |   14 [31m-[m
+ 1)Python/dict.py                                   |    1 [31m-[m
+ 1)Python/exceptionhandling.py                      |   15 [31m-[m
+ 1)Python/inherit.py                                |   18 [31m-[m
+ 1)Python/jk.py                                     |    4 [31m-[m
+ 1)Python/list.py                                   |   23 [31m-[m
+ 1)Python/mng_std.py                                |   49 [31m-[m
+ 1)Python/pal.py                                    |    5 [31m-[m
+ 1)Python/second.py                                 |   13 [31m-[m
+ 1)Python/set.py                                    |    4 [31m-[m
+ 1)Python/str.py                                    |   26 [31m-[m
+ 1)Python/sum.py                                    |    8 [31m-[m
+ 1)Python/tup.py                                    |   19 [31m-[m
+ .../Array_indexing-checkpoint.ipynb                |  371 [31m--[m
+ 2)NumPy/.ipynb_checkpoints/Arrays-checkpoint.ipynb |  710 [31m---[m
+ .../.ipynb_checkpoints/Untitled1-checkpoint.ipynb  |    6 [31m-[m
+ .../array_operation-checkpoint.ipynb               |    6 [31m-[m
+ .../.ipynb_checkpoints/exercise-checkpoint.ipynb   |  363 [31m--[m
+ 2)NumPy/Array_indexing.ipynb                       |  371 [31m--[m
+ 2)NumPy/Arrays.ipynb                               |  710 [31m---[m
+ 2)NumPy/Untitled1.ipynb                            |  126 [31m-[m
+ .../anaconda_projects/db/project_filebrowser.db    |  Bin [31m32768[m -> [32m0[m bytes
+ 2)NumPy/array_operation.ipynb                      |  566 [31m---[m
+ 2)NumPy/exercise.ipynb                             |  363 [31m--[m
+ .../.ipynb_checkpoints/1)series-checkpoint.ipynb   |  201 [31m-[m
+ .../2)dataframes-checkpoint.ipynb                  | 1595 [31m-------[m
+ .../3)MissingData-checkpoint.ipynb                 |    6 [31m-[m
+ .../4)MergingJoining-checkpoint.ipynb              |    6 [31m-[m
+ .../.ipynb_checkpoints/5)GroupBy-checkpoint.ipynb  |    6 [31m-[m
+ .../6)PivotTables-checkpoint.ipynb                 |    6 [31m-[m
+ .../8)FeatureExtraction-checkpoint.ipynb           | 1651 [31m-------[m
+ .../9)Countries-checkpoint.ipynb                   |    6 [31m-[m
+ 3)Pandas/1)series.ipynb                            |  201 [31m-[m
+ 3)Pandas/2)dataframes.ipynb                        | 1603 [31m-------[m
+ 3)Pandas/3)MissingData.ipynb                       | 1049 [31m-----[m
+ 3)Pandas/4)MergingJoining.ipynb                    | 1566 [31m-------[m
+ 3)Pandas/5)GroupBy.ipynb                           |  319 [31m--[m
+ 3)Pandas/6)PivotTables.ipynb                       |   35 [31m-[m
+ 3)Pandas/8)FeatureExtraction.ipynb                 | 1651 [31m-------[m
+ 3)Pandas/9)Countries.ipynb                         | 1293 [31m------[m
+ 3)Pandas/Countries.csv                             |  195 [31m-[m
+ .../anaconda_projects/db/project_filebrowser.db    |  Bin [31m32768[m -> [32m0[m bytes
+ 3)Pandas/anime.csv                                 |   51 [31m-[m
+ .../4)MatrixPlot-checkpoint.ipynb                  |  964 [32m+++++[m
+ .../5)Regression-checkpoint.ipynb                  |   84 [32m+[m
+ .../6)Plotly&Cufflinks-checkpoint.ipynb            | 4534 [32m++++++++++++++++++++[m
+ .../7)ipl_project-checkpoint.ipynb                 | 1022 [32m+++++[m
+ 4)MatplotLib+Seaborn/3)CategoricalPlot.ipynb       |  239 [32m+[m[31m-[m
+ 4)MatplotLib+Seaborn/4)MatrixPlot.ipynb            |  964 [32m+++++[m
+ 4)MatplotLib+Seaborn/5)Regression.ipynb            |   84 [32m+[m
+ 4)MatplotLib+Seaborn/6)Plotly&Cufflinks.ipynb      | 4534 [32m++++++++++++++++++++[m
+ 4)MatplotLib+Seaborn/7)ipl_project.ipynb           | 1022 [32m+++++[m
+ 4)MatplotLib+Seaborn/IPL.csv                       |   75 [32m+[m
+ 61 files changed, 13510 insertions(+), 15786 deletions(-)
